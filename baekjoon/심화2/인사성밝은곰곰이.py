@@ -8,5 +8,5 @@ for _ in range(n):
     else:
         if s not in visited:
             count += 1
-            visited.add(s)  # 이 줄이 빠져있었음
+            visited.add(s)
 print(count)
