@@ -1,0 +1,12 @@
+def backtrack(현재상태):
+    # 1. 목표에 도달했는가?
+    if 목표달성:
+        결과저장()
+        return
+    
+    # 2. 가능한 선택지들을 하나씩 시도
+    for 각각의_선택지 in 모든_선택지:
+        if 선택지가_유효함:
+            선택하기()          # Choose
+            backtrack(다음상태)  # Explore  
+            선택취소하기()       # Unchoose (백트래킹!)
